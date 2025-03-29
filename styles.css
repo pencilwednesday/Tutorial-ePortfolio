@@ -364,7 +364,6 @@ nav {
     z-index: 3;
     opacity: 0;
     transition: transform 450ms, opacity 300ms;
-
 }
 
 .project__description--title {
@@ -468,7 +467,7 @@ footer {
 }
 
 /* SMALL PHONES */
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     .nav__link:not(:last-child) {
         display: none;
     }
